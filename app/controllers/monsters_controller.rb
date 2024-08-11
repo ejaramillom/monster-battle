@@ -82,7 +82,7 @@ class MonstersController < ApplicationController
 
   def monster_params
     params.require(:monster)
-        .permit(:name, :imageUrl, :attack, :defense, :hp, :speed)
+          .permit(:name, :imageUrl, :attack, :defense, :hp, :speed)
   end
 
   def set_monster
