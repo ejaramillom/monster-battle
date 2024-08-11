@@ -11,3 +11,6 @@ class CreateMonsters < ActiveRecord::Migration[7.0]
     end
   end
 end
+
+# instead of editing and erasing the database which i should do,
+# we will edit the existing migration, drop the db and then seed it
